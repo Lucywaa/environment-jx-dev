@@ -1,0 +1,15 @@
+adminUser:
+  password: local:jx/adminUser:password
+  username: devops_jenkins_admin
+docker:
+  email: michelle@kueski.com
+  password: local:jx/docker:password
+  url: https://827486962587.dkr.ecr.us-east-1.amazonaws.com
+  username: AKIAIPDYANTYLIGQDDBA
+enableDocker: true
+pipelineUser:
+  email: michelle@kueski.com
+  token: local:jx/pipelineUser:token
+  username: lucywaa
+prow:
+  hmacToken: local:jx/prow:hmacToken
